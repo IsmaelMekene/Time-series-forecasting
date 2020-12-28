@@ -28,3 +28,9 @@ Of course, the goal is to get the best possible forecasting.
 
 
 ## Solution
+
+
+### 1. Forecast without outdoor temperature
+ 
+ 
+### 2. Forecast using outdoor temperature
