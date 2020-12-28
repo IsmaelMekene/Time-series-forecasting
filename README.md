@@ -1,7 +1,10 @@
 # :chart_with_upwards_trend: Time-series-forecasting
 
 
-![timeseries](https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif)
+<p align="center">
+  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+</p>
+
 
 
 ## Subject
