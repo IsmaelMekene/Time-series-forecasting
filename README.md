@@ -1,7 +1,7 @@
 # :chart_with_upwards_trend: Time-series-forecasting
 
 
-![timeseries](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/timeseries.jpg)
+![timeseries](https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif)
 
 
 ## Subject
