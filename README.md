@@ -2,7 +2,7 @@
 
  This repository is aiming to Time Series Forecast over a given dataset. The goal of the exercise is to find the most appropriate model and make some predictions.
 
-                                           *Forecast done in R*
+*Forecast done in R*
 
 <p align="center">
   <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
