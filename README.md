@@ -1,5 +1,6 @@
 # :chart_with_upwards_trend: Time-series-forecasting
 
+ This repository is aiming to Time Series Forecast over a given dataset. The goal of the exercise is to find the most appropriate model and make some predictions.
 
 <p align="center">
   <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
