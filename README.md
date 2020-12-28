@@ -1,4 +1,4 @@
-# Time-series-forecasting
+# :chart_with_upwards_trend: Time-series-forecasting
 
 The file Elec-train.xlsx contains electricity consumption (kW) and outdoor air temperature for one building.
 These quantities are measured every 15 minutes, from 1/1/2010 1:15 to 2/16/2010 23:45. In addition, outdoor
