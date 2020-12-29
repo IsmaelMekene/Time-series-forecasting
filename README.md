@@ -33,7 +33,7 @@ Of course, the goal is to get the best possible forecasting.
 
 ### Visualization
 
-R have a broad range of packages that make data visualization more exciting. We will focus on:
+R has a broad range of packages that make data visualization more exciting. We will focus on:
 - [x] forecast
 - [x] ggplot2
 
