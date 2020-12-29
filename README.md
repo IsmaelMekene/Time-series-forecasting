@@ -40,8 +40,7 @@ R have a broad range of packages that make data visualization more exciting. We 
 As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb) and by using the 80:20 ration, the observation can easily be done.
 
 <figure align="center">
-    <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"
-         alt="electricity">
+    <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
     <figcaption>Electricity Consumption (kW per hour)</figcaption>
 </figure>
 
