@@ -45,7 +45,6 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
 </figure>
 
 
-
 ### 1. Forecast without outdoor temperature
  
  
