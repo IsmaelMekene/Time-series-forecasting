@@ -49,3 +49,4 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
  
  
 ### 2. Forecast using outdoor temperature
+
