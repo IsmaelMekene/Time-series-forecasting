@@ -45,7 +45,7 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
   </figure>
   
   <p align="center">
-  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
   </p>
 
 
