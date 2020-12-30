@@ -111,7 +111,8 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
   
   **RECAP**:
-  The model with the lowest error so far is Damped multiplicative Holt-Winters, however; this is not because it is the best model (See that the prediction pattern is not correlate with pattern of test set).     
+  
+The model with the lowest error so far is Damped multiplicative Holt-Winters, however; this is not because it is the best model (See that the prediction pattern is not correlate with pattern of test set).     
 This low error is just because our calculation base on mean different and Damped multiplicative Holt-Winters gives us the linear model that situates around the middle of the graph.    
 We should also consider that all alpha, beta, gamma and phi parameters used above are automatically chosen just to screen and see the pattern of each forecasting model.    
 Therefore, if we really want to compare between each model, the parameters should be fixed.    
