@@ -120,5 +120,81 @@ Therefore, if we really want to compare between each model, the parameters shoul
 But we will not consider them now since clearly we cannot use any exponential smoothing for our forecast.
 
 
+- **ARIMA: AutoRegressive Integrated Moving Average**
+
+As the Exponential Smoothing models cannot be suitable for our forecast, a better move would be trying the ARIMA models for example.
+
+  - **SARIMA: Seasonal AutoRegressive Integrated Moving Average model**
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/sarima.png"/>
+  <figcaption> Figure 5: SARIMA model</figcaption>
+  </p>
+  
+  The model is not perfect although it looks better than the previous ones. We can see the following root mean square error (RMSE= 56.392)
+  This model shows less error but the prediction pattern are still not so good.  
+  We should look for a model that is more flexible like Neural Network Auto-Regression.
+  
+  - **Neural Network Auto-Regression**
+  
+  The parameters p and k are automatically chosen.
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/neralnetworkautoreg.png"/>
+  <figcaption> Figure 6: Neural Network Auto-Regression</figcaption>
+  </p>
+  
+  The root mean square error (RMSE) is 89.75295. Eventhough the error is higher than SARIMA model but the prediction pattern seems correct. 
+This correlates with the information from auto-correlation function (acf) below.  
+See that auto-correlation declines slowly as the number of lags increases. 
+This is a property of non-stationarity that will effect the efficiency of several forecasting models.  
+It also possible that our data might has no seasonal but cyclic pattern. In that case, they cannot be modelized by usual linear model.
+
+_see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+
+  In addition, we can look the Auto-correlation pattern in order to have a clear view in Figure 7.
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/autocorr.png"/>
+  <figcaption> Figure 7: Auto-correlation pattern</figcaption>
+  </p>
+  
+  Moreover, observe the information from the Neural network model to improve the model precision
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/NNinfos.png"/>
+  <figcaption> Figure 8: Neural network infos</figcaption>
+  </p>
+  
+  Furthermore, we can try to add more neurons to the model in order to stabilize variance by Box-Cox transformation.
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/stabvariance.png"/>
+  <figcaption> Figure 8: Neural Network with more neurons</figcaption>
+  </p>
+  
+  The root mean square error (RMSE) is 70.82671
+  The RSME is the lower and this definitely is the best model so far!
+  
+  Let's clear see the prediction again. 
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/seepred.png"/>
+  <figcaption> Figure 9: Suitable Neural Network with more neurons</figcaption>
+  </p>
+  
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+
+It seems that we have found the most suitable model for our dataset, we will now predict the electricity consumption of 17/2/2010 based on the whole previous consumption information.
+The prediction interval = 24 hr for the entire day of 17/2/2010. Therefore h =(24*60)/15 = 96 observations.
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/pred.png"/>
+<figcaption> Figure 10: Predictions without Temperatures</figcaption>
+</p>
+
+_see_ [Predictions](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/predictions/Prediction.csv)
+  
 ### 2. Forecast using outdoor temperature
 
