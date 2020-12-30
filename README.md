@@ -124,7 +124,7 @@ But we will not consider them now since clearly we cannot use any exponential sm
 
 As the Exponential Smoothing models cannot be suitable for our forecast, a better move would be trying the ARIMA models for example.
 
-  - **SARIMA: Seasonal AutoRegressive Integrated Moving Average model**
+   - **SARIMA: Seasonal AutoRegressive Integrated Moving Average model**
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/sarima.png"/>
@@ -135,7 +135,7 @@ As the Exponential Smoothing models cannot be suitable for our forecast, a bette
   This model shows less error but the prediction pattern are still not so good.  
   We should look for a model that is more flexible like Neural Network Auto-Regression.
   
-  - **Neural Network Auto-Regression**
+   - **Neural Network Auto-Regression**
   
   The parameters p and k are automatically chosen.
   
