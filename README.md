@@ -49,6 +49,8 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
  
 It is not always an easy task to find the most appropriate model for a given dataset. However, we will stick on a searching methodology that has proven to be effective.
 
+Starting with the Exponential Smoothing models, we will observe those not using seasonnal patterns and then move to the ones that use them.
+
 - **Exponential Smoothing**
   
   - **Non-seasonal pattern**
@@ -58,7 +60,7 @@ It is not always an easy task to find the most appropriate model for a given dat
     - **Non seasonal Holt-Winters**
      
 
-Starting with the Exponential Smoothing
+ 
  
 ### 2. Forecast using outdoor temperature
 
