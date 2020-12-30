@@ -47,6 +47,13 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
 
 ### 1. Forecast without outdoor temperature
  
+It is not always an easy task to find the most appropriate model for a given dataset. However, we will stick on a searching methodology that has proven to be effective.
+
+- Exponential Smoothing
+
+  - Non-seasonal pattern
+
+Starting with the Exponential Smoothing
  
 ### 2. Forecast using outdoor temperature
 
