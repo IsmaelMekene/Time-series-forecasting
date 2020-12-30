@@ -55,9 +55,16 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   
   - **Non-seasonal pattern**
   
+  <p align="center">
+  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+  <figcaption>Simple Exponential Smoothing vs Non-seasonal Holt-Winters</figcaption>
+  </p>
+  
     - **Simple Exponential Smoothing (SES)**
    
-    - **Non seasonal Holt-Winters**
+    - **Non-seasonal Holt-Winters**
+    
+    
      
 
  
