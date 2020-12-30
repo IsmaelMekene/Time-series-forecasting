@@ -74,6 +74,9 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   - [ ] **Damped additive seasonal Holt-Winters**: paramaters (seasonal='additive', h=900, damped=TRUE)
   - [ ] **Damped multiplicative seasonal Holt-Winters**: paramaters (seasonal='multiplicative', h=900, damped=TRUE)
   
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+  
+  
   After setting the parameters, we can observe the plot on Figure 3.
     
   <p align="center">
@@ -85,6 +88,8 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   We can try to stabilize the variance by Box-Cox transformation in the previous Additive HW models.
   - [ ] **Additive seasonal Holt-Winters**: paramaters (seasonal='additive', h=900, lambda = 'auto')
   - [ ] **Damped additive seasonal Holt-Winters**: paramaters (seasonal='additive', h=900, damped=TRUE, lambda = 'auto')
+  
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
   
   After setting the parameters, we can observe the plot on Figure 4.
   
@@ -102,6 +107,8 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   - [x] RMSE in Damped multiplicative seasonal Holt-Winters: 60.48178
   - [x] RMSE in Additive seasonal Holt-Winters Stabilised: 70.18168
   - [x] RMSE in Damped additive seasonal Holt-Winters Stabilised: 60.84705
+  
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
   
   **RECAP**:
   The model with the lowest error so far is Damped multiplicative Holt-Winters, however; this is not because it is the best model (See that the prediction pattern is not correlate with pattern of test set).     
