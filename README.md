@@ -46,6 +46,7 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
+  <u>Figure 1: Electricity Consumption (kW per hour)</u>
   </p>
 
 
