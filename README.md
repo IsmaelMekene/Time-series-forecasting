@@ -49,11 +49,13 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
  
 It is not always an easy task to find the most appropriate model for a given dataset. However, we will stick on a searching methodology that has proven to be effective.
 
-Starting with the Exponential Smoothing models, we will observe those not using seasonnal patterns and then move to the ones that use them.
+Starting with the Exponential Smoothing models, we will observe those not using seasonal patterns and then move to the ones that use them.
 
 - **Exponential Smoothing**
   
   - **Non-seasonal pattern**
+  
+  In this section, we have focused on models that do not use seasonal pattern. A comparasion has been done in between the Simple Exponentional Smoothing and the Non-seasonam Holt-Winters.
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/nonseasonal.png"/>
