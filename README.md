@@ -53,9 +53,9 @@ It is not always an easy task to find the most appropriate model for a given dat
   
   - **Non-seasonal pattern**
   
-   - **Simple Exponential Smoothing (SES)**
+    - **Simple Exponential Smoothing (SES)**
    
-   - **Non seasonal Holt-Winters**
+    - **Non seasonal Holt-Winters**
      
 
 Starting with the Exponential Smoothing
