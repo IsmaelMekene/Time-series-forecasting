@@ -120,7 +120,7 @@ Therefore, if we really want to compare between each model, the parameters shoul
 But we will not consider them now since clearly we cannot use any exponential smoothing for our forecast.
 
 
-- **ARIMA: AutoRegressive Integrated Moving Average**
+ **ARIMA: AutoRegressive Integrated Moving Average**
 
 As the Exponential Smoothing models cannot be suitable for our forecast, a better move would be trying the ARIMA models for example.
 
