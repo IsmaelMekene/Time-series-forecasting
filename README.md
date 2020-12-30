@@ -57,7 +57,7 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/nonseasonal.png"/>
-  <u>Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters</u>
+    <u>Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters</u>
   </p>
   
     - **Simple Exponential Smoothing (SES)**
