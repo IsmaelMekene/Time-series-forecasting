@@ -40,8 +40,8 @@ R has a broad range of packages that make data visualization more exciting. We w
 As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb) and by using the 80:20 ration, the observation can easily be done.
 
 <figure align="center">
-    <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
-    <figcaption>Electricity Consumption (kW per hour)</figcaption>
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
+<u>Figure 1: Electricity Consumption (kW per hour)</u>
 </figure>
 
 
@@ -57,7 +57,7 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/nonseasonal.png"/>
-  <figcaption>Simple Exponential Smoothing vs Non-seasonal Holt-Winters</figcaption>
+  <u>Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters</u>
   </p>
   
     - **Simple Exponential Smoothing (SES)**
