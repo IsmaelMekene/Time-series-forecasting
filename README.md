@@ -56,7 +56,7 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   - **Non-seasonal pattern**
   
   <p align="center">
-  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/nonseasonal.png"/>
   <figcaption>Simple Exponential Smoothing vs Non-seasonal Holt-Winters</figcaption>
   </p>
   
