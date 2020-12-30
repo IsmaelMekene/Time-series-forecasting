@@ -55,19 +55,32 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   
   - **Non-seasonal pattern**
   
-  In this section, we have focused on models that do not use seasonal pattern. A comparasion has been done in between the Simple Exponentional Smoothing and the Non-seasonam Holt-Winters.
+  In this section, we have focused on models that do not use seasonal pattern. A comparasion has been done in between the Simple Exponentional Smoothing and the Non-seasonam Holt-Winters. After setting the parameters, alpha in SES to NULL and (alpha, beta) to (NULL, NULL) we can observe it on Figure 2.
   
   <p align="center">
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/nonseasonal.png"/>
   <figcaption> Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters </figcaption>
   </p>
-
-     - **Simple Exponential Smoothing (SES)**
+  
+  It is clearly seen on Figure 2 that both models are not appropriate.
    
-     - **Non-seasonal Holt-Winters**
+  - **Seasonal pattern** 
+  
+  We will now focus the forecasts over the seasonal patterns and linear trends.
+  
+  - [ ] **Additive seasonal Holt-Winters**: paramaters (seasonal='additive', h=900)
+  - [ ] **Multiplicative seasonal Holt-Winters**: paramaters (seasonal='multiplicative', h=900)
+  - [ ] **Damped additive seasonal Holt-Winters**: paramaters (seasonal='additive', h=900, damped=TRUE)
+  - [ ] **Damped multiplicative seasonal Holt-Winters**: paramaters (seasonal='multiplicative', h=900, damped=TRUE)
+  
+  After setting the parameters, we can observe the plot on Figure 3.
     
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/seasonalandlinear.png"/>
+  <figcaption> Figure 3: Additive seasonal vs Multiplicative seasonal vs Damped additive vs Damped multiplicative</figcaption>
+  </p>
     
-     
+  The models on Figure 3 are still not suitable.
 
  
  
