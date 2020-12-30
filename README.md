@@ -49,9 +49,14 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
  
 It is not always an easy task to find the most appropriate model for a given dataset. However, we will stick on a searching methodology that has proven to be effective.
 
-- Exponential Smoothing
-
-  - Non-seasonal pattern
+- **Exponential Smoothing**
+  
+  - **Non-seasonal pattern**
+  
+   - **Simple Exponential Smoothing (SES)**
+   
+   - **Non seasonal Holt-Winters**
+     
 
 Starting with the Exponential Smoothing
  
