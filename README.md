@@ -62,6 +62,10 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   <figcaption> Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters </figcaption>
   </p>
   
+  <p align="center">
+  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+  </p>
+  
   It is clearly seen on Figure 2 that both models are not appropriate.
    
   - **Seasonal pattern** 
