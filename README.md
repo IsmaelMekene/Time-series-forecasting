@@ -99,14 +99,14 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   </p>
  
   As we can see a small omprovement on the previous results, it is preferable to compute the root mean square error (RMSE) of each model to have a better view.
-  - [x] RMSE in Simple Exponentional Smoothing: 60.76483
-  - [x] RMSE in Non-seasonam Holt-Winters: 64.57402
-  - [x] RMSE in Additive seasonal Holt-Winters: 73.46383
-  - [x] RMSE in Multiplicative seasonal Holt-Winters: 73.40462
-  - [x] RMSE in Damped additive seasonal Holt-Winters: 60.91925
-  - [x] RMSE in Damped multiplicative seasonal Holt-Winters: 60.48178
-  - [x] RMSE in Additive seasonal Holt-Winters Stabilised: 70.18168
-  - [x] RMSE in Damped additive seasonal Holt-Winters Stabilised: 60.84705
+  - [ ] RMSE in Simple Exponentional Smoothing: 60.76483
+  - [ ] RMSE in Non-seasonam Holt-Winters: 64.57402
+  - [ ] RMSE in Additive seasonal Holt-Winters: 73.46383
+  - [ ] RMSE in Multiplicative seasonal Holt-Winters: 73.40462
+  - [ ] RMSE in Damped additive seasonal Holt-Winters: 60.91925
+  - [ ] RMSE in Damped multiplicative seasonal Holt-Winters: 60.48178
+  - [ ] RMSE in Additive seasonal Holt-Winters Stabilised: 70.18168
+  - [ ] RMSE in Damped additive seasonal Holt-Winters Stabilised: 60.84705
   
   _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
   
