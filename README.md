@@ -43,6 +43,10 @@ As used in the [code](https://github.com/IsmaelMekene/Time-series-forecasting/bl
   <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/visuatraintest.png"/>
   <u>Figure 1: Electricity Consumption (kW per hour)</u>
   </figure>
+  
+  <p align="center">
+  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
+  </p>
 
 
 ### 1. Forecast without outdoor temperature
@@ -62,10 +66,7 @@ Starting with the Exponential Smoothing models, we will observe those not using 
   <figcaption> Figure 2: Simple Exponential Smoothing vs Non-seasonal Holt-Winters </figcaption>
   </p>
   
-  <p align="center">
-  <img src="https://www.analyticsindiamag.com/wp-content/uploads/2018/12/timser.gif"/>
-  </p>
-  
+ 
   It is clearly seen on Figure 2 that both models are not appropriate.
    
   - **Seasonal pattern** 
