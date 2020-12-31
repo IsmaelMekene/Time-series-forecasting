@@ -28,7 +28,7 @@ Of course, the goal is to get the best possible forecasting.
 
 
 
-## Solution
+## Solution  
 
 
 ### Visualization
