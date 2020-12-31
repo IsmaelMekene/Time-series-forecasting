@@ -198,3 +198,4 @@ _see_ [Predictions](https://github.com/IsmaelMekene/Time-series-forecasting/blob
   
 ### 2. Forecast using outdoor temperature
 
+In this section, we will forecast electricity consumption (kW) for 2/17/2010 by using outdoor temperature
