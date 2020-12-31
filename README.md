@@ -198,4 +198,87 @@ _see_ [Predictions](https://github.com/IsmaelMekene/Time-series-forecasting/blob
   
 ### 2. Forecast using outdoor temperature
 
-In this section, we will forecast electricity consumption (kW) for 2/17/2010 by using outdoor temperature
+In this section, we will forecast electricity consumption (kW) for 2/17/2010 by using outdoor temperature.
+After splitting the dataset into train and test sets, we have to verify the effect of temperature to electricity consumption.
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/effect.png"/>
+<figcaption> Figure 11: Temperature effect on Electricity</figcaption>
+</p>
+
+As the effect of temperature to electricity consumption are statisticaly significant. We can add trend and seasonal pattern to this regression.
+_see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/effecttrenddd.png"/>
+<figcaption> Figure 11: Temperature effect on Electricity with trend</figcaption>
+</p>
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/effecttrendseason.png"/>
+<figcaption> Figure 12: Temperature effect on Electricity with trend and season</figcaption>
+</p>
+
+**Comparison of the three previous models**
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/comparrr.png"/>
+<figcaption> Figure 13: Comparison of the three previous models</figcaption>
+</p>
+
+From the comparison, we will choose the model with trend only for the rest of the exercise because this model has the lowest AIC and the highest Adjusted R squared.
+
+In addition, as Time series linear regression model assumes that the residuals are independent and identically distributed. Therefore we have to see the residuals of our model first.
+
+_see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+
+<p align="center">
+<img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/residualfirst.png"/>
+<figcaption> Figure 14: Residual in the model Temperature~Electricity</figcaption>
+</p>
+
+
+Furthermore, the PART ONE of the exercise has proved that the residuals are dependent, so we can not go for the linear regression model.
+Therefore, the appropriate model in case the residual are not independent to each other is the **Dynamic regression model**.
+
+  - **Dynamic regression model**
+  
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/autocorresid.png"/>
+  <figcaption> Figure 15: Autocorrelation of residuals</figcaption>
+  </p>
+  
+  It is clearly seen that all the auto-correlations of the residuals have been arranged with this model so we can validate the model and then forecast the test set.
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/testpred.png"/>
+  <figcaption> Figure 16: First predictions with Temperature</figcaption>
+  </p>
+  
+  This is acceptable but as the best model we have so far is **Neural Network** maybe we should try them with temperature variable.
+  _see_ [code](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/model/TimesSeries.ipynb)
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/secodpred.png"/>
+  <figcaption> Figure 17: Second predictions with Temperature</figcaption>
+  </p>
+  
+  The Root Mean Square Error in this case is: 83.42295, however we can try to zoom into the predictions.
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/zoompred.png"/>
+  <figcaption> Figure 18: Second predictions with Temperature Zoomed</figcaption>
+  </p>
+  
+  This model seems to be suitable for our dataset, we should therefore undertake the forecast electricity consumption on 17th Feb based on temperature of that day.
+  
+  <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/forecastwith.png"/>
+  <figcaption> Figure 19: Predictions with Temperatures</figcaption>
+  </p>
+  
+  _see_ [Predictions](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/predictions/Prediction%20with%20Temperature.csv)
+  
+
+
