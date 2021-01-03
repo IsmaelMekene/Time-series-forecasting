@@ -281,3 +281,4 @@ Therefore, the appropriate model in case the residual are not independent to eac
   _see_ [Predictions](https://github.com/IsmaelMekene/Time-series-forecasting/blob/main/predictions/Prediction%20with%20Temperature.csv)
   
 
+
